@@ -10,7 +10,7 @@ public class Bill3
 		//System.out.println("write the price 0f the dinner");
 		Double price = Double.parseDouble(args[3]);
 		double eachOne=(price/3);
-		System.out.println(name1+", "+name2+" and, "+name3+": "+"pay "+ Math.ceil(eachOne)+" shekels each ");
+		System.out.println(name3+", "+name2+", and, "+name1+": "+"pay "+ Math.ceil(eachOne)+" Shekels each ");
 	}
 	
 }

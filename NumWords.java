@@ -11,7 +11,7 @@ public class NumWords {
 		number=n;
 		tens=number/10%10;
 		ones=number%100%10;
-		System.out.println(hunreds+" hundreds, "+tens+" tens, and "+ones+" ones");
+		System.out.println(hunreds+" hundreds, "+tens+" tens, and "+ones+" ones.");
 		//if i would like to do this action for a number with more then 3 digits, i can use 'for'  to get it work
 	}
 }
