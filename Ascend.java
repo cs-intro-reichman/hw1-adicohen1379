@@ -23,6 +23,6 @@ public class Ascend {
 						middle=c;
 				}
 			}
-			System.out.println("the numbers in ascend order are "+minCheck+","+middle+" "+maxCheck);
+			System.out.println(+minCheck+","+middle+" "+maxCheck);
 	}
 }
