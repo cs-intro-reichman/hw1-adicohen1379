@@ -2,12 +2,12 @@
 // and prints them in increasing order.
 public class Ascend {
 	public static void main(String[] args) {
-		System.out.println("write the limit");
+		//System.out.println("write the limit");
 		Integer lim=Integer.parseInt(args[0]);
 		Integer a= (int)(Math.random()*(lim+1));
 		Integer b= (int)(Math.random()*(lim+1));
 		Integer c= (int)(Math.random()*(lim+1));
-		System.out.println("the numbers are "+a+","+b+" "+c);;//to see the random numbers
+		//System.out.println("the numbers are "+a+","+b+" "+c);;//to see the random numbers
 		Integer max=Math.max(a,b);
 		Integer maxCheck=Math.max(max, c);
 		Integer min=Math.min(a,b);
