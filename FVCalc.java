@@ -9,6 +9,6 @@ public class FVCalc {
 		Integer num=Integer.parseInt(args[2]);
 		Double pow=Math.pow((rateNum+1),num);
 		Double futeureValue=currentValue*pow;
-		System.out.println("After "+ num+" years, a "+"$"+currentValue+" saved at "+ratePrecent+"% will yield "+"$"+Math.floor(futeureValue));
+		System.out.println("After "+ num+" years, a "+"$"+currentValue+" saved at "+ratePrecent+"% will yield "+"$"+(int)Math.floor(futeureValue));
 	}
 }
